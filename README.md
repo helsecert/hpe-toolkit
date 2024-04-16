@@ -38,7 +38,7 @@ kubectl delete hpe-toolkit
 Disk/RAID management:
 
 ```bash
-kubectl run hpe-toolkit --rm -it --privileged --image ghcr.io/p3lim/hpe-toolkit \
+kubectl run hpe-toolkit --rm -it --privileged --image ghcr.io/helsecert/hpe-toolkit \
                        --overrides='{"spec":{"nodeSelector":{"kubernetes.io/hostname":"my-hpe-node"}}}'
                        -- ssacli
 If you don't see a command prompt, try pressing enter.
