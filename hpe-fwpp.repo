@@ -1,7 +1,7 @@
 [hpe-fwpp]
 name=HPE FWPP
 # the FWPP repo requires authentication, which is handled by the entrypoint
-baseurl=https://$fwpptoken:null@downloads.linux.hpe.com/SDR/repo/fwpp-gen10/RedHat/8/x86_64/current/
+baseurl=https://$fwpptoken:null@downloads.linux.hpe.com/SDR/repo/fwpp-gen10/RedHat/9/x86_64/current/
 enabled=1
 gpgcheck=1
 gpgkey=https://downloads.linux.hpe.com/SDR/repo/fwpp-gen10/GPG-KEY-FirmwarePackforProLiant

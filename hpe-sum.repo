@@ -1,6 +1,6 @@
 [hpe-sum]
 name=HPE SUM
-baseurl=https://downloads.linux.hpe.com/SDR/repo/sum/RedHat/8/x86_64/current/
+baseurl=https://downloads.linux.hpe.com/SDR/repo/sum/RedHat/9/x86_64/current/
 enabled=1
 gpgcheck=1
 gpgkey=https://downloads.linux.hpe.com/SDR/repo/sum/GPG-KEY-hpsum
