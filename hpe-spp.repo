@@ -1,0 +1,6 @@
+[hpe-spp]
+name=HPE SPP
+baseurl=https://downloads.linux.hpe.com/SDR/repo/spp-gen10/RedHat/8/x86_64/current/
+enabled=1
+gpgcheck=1
+gpgkey=https://downloads.linux.hpe.com/SDR/repo/spp-gen10/GPG-KEY-spp
