@@ -9,6 +9,7 @@ on:
       - '**.repo'
       - 'entrypoint.sh'
       - 'upgrade-firmware.sh'
+      - '.github/workflows/build.yml'
 
 jobs:
   build:
